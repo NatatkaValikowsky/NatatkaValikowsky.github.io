@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.main {
+  height: 100vh;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  padding-top: 20px;
+}
+.center-block {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: grey;
+  padding: 20px;
+}
+h1 {
+  font-size: 3em;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: grey;
+}
+a:hover {
+  color: grey;
+}
+.services {
+  margin-left: 15px;
+  font-size: 1.2em;
+  color: #000;
+}
+.contacts span {
+  width: 25px;
+  text-align: center;
+}
