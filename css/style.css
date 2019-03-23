@@ -104,8 +104,16 @@ a:hover {
 
 @media(max-width:500px){
   .projects-item img{
-    width: 290px;
-    height: 140px;
+    width: 2400px;
+    height: 116px;
+  }
+
+  .contacts{
+    font-size: 10pt;
+  }
+
+  h1{
+    font-size: 2em;
   }
 }
 
