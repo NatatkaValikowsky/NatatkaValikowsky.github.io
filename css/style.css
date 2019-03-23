@@ -3,10 +3,13 @@
   padding: 0;
   font-size: 16px;
 }
-.main {
-  height: 100vh;
+
+body{
   background-image: url(../img/bg.jpg);
   background-size: cover;
+  background-attachment: fixed;
+}
+.main {
   padding-top: 20px;
 }
 .center-block {
@@ -16,9 +19,7 @@
 }
 h1 {
   font-size: 3em;
-}
-ul {
-  list-style: none;
+  margin-bottom:30px;
 }
 a {
   color: grey;
@@ -34,4 +35,99 @@ a:hover {
 .contacts span {
   width: 25px;
   text-align: center;
+}
+
+.contacts ul{
+  list-style:none;
+}
+
+.my-photo{
+  display:block;
+  width:250px;
+  height: 250px;
+  background: url("../img/my_photo.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  margin-bottom:15px;
+  border-radius: 50%;
+}
+
+.main-socials a{
+  font-size:40pt;
+  margin: 10px 20px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.main-socials{
+  text-align:center;
+}
+
+.main-socials a.vk{
+  color: #4c75a3;
+}
+
+.main-socials a.wa{
+  color: #189d0e;
+}
+
+.main-socials a.tm{
+  color: #27a5e7;
+}
+
+.main-socials a:hover{
+  color: grey;
+}
+
+.skills-item{
+  text-align: center;
+  margin-top:30px;
+}
+
+.skills-item img{
+  display:block;
+  margin: 5px auto;
+}
+
+.projects-item{
+  text-align: center;
+  margin-top:30px;
+}
+
+.projects-item img{
+  display:block;
+  margin:5px auto;
+}
+
+.title-class {
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 50px;
+  font-size:25pt;
+  text-transform: uppercase;
+}
+.title-class:before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  margin-left: -3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #5f2b5c;
+  z-index: 2;
+}
+.title-class:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  margin-left: -25%;
+  width: 50%;
+  height: 2px;
+  background: #fbb9bd;
 }
